@@ -5,6 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: darkolivegreen;
+  color: aliceblue;
+}
+
+.button {
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: chartreuse;
+  font-size: 75px;
+  font-family: fantasy;
+}
+
+button:active {
+  
+  transform: scale(.95)
 }
 
 code {
